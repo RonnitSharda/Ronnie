@@ -1,5 +1,16 @@
 # Crack Check - Video 
+https://crackapi.getinstacash.in/api_media/results/ronnit/cracks/<image_file_name>
 
+## SETUP
+
+```bash
+cd /home/projects/zotlay-data/
+python3.10 -m venv .venv
+source .venv/bin/activate
+python -m pip install -U pip setuptools wheel
+pip install -e "git+https://github.com/prateekgo/pyInstaCash.git@dev1#egg=instacash"
+git init
+```
 ## Outline of the code 
 
 Knn is applied on the video at first then the mask of the screen is calculated.
