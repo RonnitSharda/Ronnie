@@ -15,9 +15,9 @@ git init
 We are doing the following steps :
 1. Apply Knn to the input Video 
 2. Using the Knn applied video get the initial mask of the phone's screen
-3. Use morphological operations on the initial mask get the final mask of the phone's         screen and get the final mask
+3. Use morphological operations on the initial mask get the final mask of the phone's screen and get the final mask
 4. Using the final mask get the phone's screen and then apply Connected Component Analysis  on it.
-5.After Applying connected component analysis we use machine learning algorithms to predict wethor this device is damaged or not.
+5. After Applying connected component analysis we use machine learning algorithms to predict wethor this device is damaged or not.
 
 
 ## Working of the Code
